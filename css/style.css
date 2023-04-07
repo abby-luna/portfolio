@@ -259,6 +259,16 @@ tr:first-child, tr:last-child
         font-size: 32px;
     }
 
+    h1
+    {
+        font-size: 40px;
+    }
+    button
+    {
+        padding: 2em;
+        border-radius: 50px;
+    }
+
 }
 
 /*BASE DESKTOP*/
