@@ -256,7 +256,7 @@ tr:first-child, tr:last-child
     /*icrease readability on samller devices*/
     body
     {
-        font-size: 16px;
+        font-size: 32px;
     }
 
 }
