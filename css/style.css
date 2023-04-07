@@ -249,6 +249,18 @@ tr:first-child, tr:last-child
     background-color: white;
 }
 
+/*BASE MOBILE*/
+@media only screen and (max-width:991px) 
+{
+
+    /*icrease readability on samller devices*/
+    body
+    {
+        font-size: 16px;
+    }
+
+}
+
 /*BASE DESKTOP*/
 @media only screen and (min-width:992px) 
 {
