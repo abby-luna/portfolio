@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layoutTwo.css">
+
+        <script src="js/addCodeSymbols.js"></script>
+
+    </head>
+    <body onload="addSymbols()">
+        <div id="home-grid">
+            <header>
+                <nav>
+                    <a class="navigation-button" href="index.html">.home();</a>
+                    <a class="navigation-button" href="leavingcert.html">.leavingCert();</a>
+                    <a class="navigation-button currentPage" href="portfolio.html"><i class="fa fa-arrow-down"></i>.portfolio();<i class="fa fa-arrow-down"></i></a>
+                    <div id="horizontalRule" style="display: none; border-top: 1px solid black; padding: 0;"></div>
+                    <a class="navigation-button" href="computing.html">.areasOfComputing();</a>
+                    <a class="navigation-button" href="interests.html">.interests();</a>
+                    <a class="navigation-button" href="education.html">.education();</a>
+                    <a class="navigation-button" href="contact.html">.contact();</a>
+                </nav>
+
+            </header>
+
+            <img id="img1" src="assets/images/MISL.png" alt="mobile internet systems labatory Cork">
+            <img id="img2" src="assets/images/patch.jpg" alt="Dogpatch labs">
+            <img id="img3" src="assets/images/bt.png" alt="BTYS 2020">
+
+            <div id="MISL">
+                <h1>MISL</h1>
+                <p>
+                    During my internship at MISL, UCC, having my code reviewed and critiqued by an expert proved to be incredibly helpful. Not only did I learn how to properly style my code for readability, but I also made valuable friendships. </p>
+            </div>
+
+            <div id="Patch">
+                <h1>Patch</h1>
+                <p>
+                    During the Patch Summer Accelerator I worked alongside Jake Feeney to create AerAis, a life buoy that can communicate with a satellite in the event of an emergency
+                </p>
+                <a href="https://aerais.weebly.com/">Learn more about AerAis</a>
+            </div>
+
+            <div id="BTYS">
+                <h1>Bt Young Scientist</h1>
+                <p>
+                    Four years ago at BT Young Scientist, I showcased my "zero hardware" iris tracker. I discussed how to use K-Means Clustering to predict screen position. I received the Highly Commended award for my work                </p>
+            </div>
+
+            <img id="img4" src="assets/images/groupProj.png" alt="Messages between group members">
+            <img id="img5" src="assets/images/cert.png" alt="Certificate from UCC">
+            <img id="img6" src="assets/images/AerAis.png" alt="AerAis V1 Notes">
+
+            <div id="group">
+                <h1>Group Work</h1>
+                <p>
+                    This semester's group work in Structured Programming and OOP was both productive and enjoyable. We spent hours discussing, voting, and writing code, allowing for valuable learning experiences in git and source control.
+                </p>
+            </div>
+    
+            <div id="competition">
+                <h1>Competitive Programming</h1>
+                <p>
+                    I competed in various European competitions thanks to MPT. The coursework was quite simple however the real challenge was competing with your classmates. The announced the Top 10 in the course weekly, so everyone was kept on edge
+                </p>
+            </div>
+
+            <div id="AI">
+                <h1>AI focused project</h1>
+                <p>
+                    While researching SAROPS for locating lost people at sea, I discovered accuracy declined with time. Inspired by this, I conceived an image analysis-based drone system. This idea evolved into AerAis.
+                </p>
+            </div>
+
+        </div>
+
+        <script src="js/darkMode.js"></script>
+        <script src="js/dropdown.js"></script>
+
+
+        <footer>
+
+            <h3 id="darkH3">Try dark mode!</h3>
+            <h3 id="contactH3">Contact Me</h3>
+
+            <button id="darkButton" onclick="setInvert()">dark mode</button>
+            <button id="lightButton" onclick="resetInvert()">light mode</button>
+
+            <a id="outlook" href="mailto:K00286554@student.lit.ie"><img alt="outlook logo" src="assets/icons/outlook.png"></a>
+            <a id="gmail" href="mailto:fakeEmail@gmail.com"><img alt="gmail logo"  src="assets/icons/gmail.png"></a>
+            <a id="insta" href="https://www.instagram.com/abbytunafish/"><img alt="instagrm logo" src="assets/icons/insta.png"></a>
+
+
+        </footer>
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Leaving Cert Page</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layoutOne.css">
+
+        <script src="js/addCodeSymbols.js"></script>
+        <script src="js/imgSlider.js"></script>
+        
+
+
+    </head>
+    <body onload="addSymbols()">
+
+        <div id="home-grid">
+            <header>
+                <nav>
+                    <a class="navigation-button" href="index.html">.home();</a>
+                    <a class="navigation-button currentPage" href="leavingcert.html"><i class="fa fa-arrow-down"></i>.leavingCert();<i class="fa fa-arrow-down"></i></a>
+                    <div id="horizontalRule" style="display: none; border-top: 1px solid black; padding: 0;"></div>
+                    <a class="navigation-button" href="portfolio.html">.portfolio();</a>
+                    <a class="navigation-button" href="computing.html">.areasOfComputing();</a>
+                    <a class="navigation-button" href="interests.html">.interests();</a>
+                    <a class="navigation-button" href="education.html">.education();</a>
+                    <a class="navigation-button" href="contact.html">.contact();</a>
+                </nav>
+
+            </header>
+
+            <div class="rightAlign">
+
+                <h1>My School</h1>
+
+                <p class="textbox">
+                    Salesian College Pallaskenry is a secondary school in County Limerick, Ireland that was founded in 1964. The school has a strong emphasis on academic excellence and developing its students' leadership skills while promoting values such as respect, kindness, and responsibility.                </p>
+
+            </div>
+            
+            <img class="leftAlign bordered" alt="Salesians Logo"  src="assets/images/salesianLogo.png">
+            
+            <div class="leftAlign">
+                <h1>Favourite Class</h1>
+
+                <p class="textbox">
+                    Leaving Cert Physics is a challenging subject covering a wide range of topics in mechanics, electricity, optics, and atomic physics. It requires strong mathematical foundations, critical thinking, and problem-solving skills.             
+                </p>
+            </div>
+
+            <img class="rightAlign bordered" id="projectImg" alt="Physics Pictorial" src="assets/images/physics.jpg">
+            
+            <h1 class="fullLen">DCG Project</h1>
+
+            <div id="ratMug">
+                <img id="primaryMug" alt="DCG Project Mug" src="assets/images/R4T.jpg">
+                <img id="secondaryMug" alt="Flask For DCG Project" src="assets/images/mug2.jpg">
+                <button class="sliderButton" id="pointLeftMug"> <img id="lPoint" alt="Left Pointer" src="assets/icons/leftArrow.png"> </button>
+                <button class="sliderButton" id="pointRightMug"> <img id="rPoint"  alt="Right Pointer" src="assets/icons/rightArrow.png"> </button>
+            </div>
+
+            <h1 class="fullLen">Subject Grades</h1>
+
+            <table id="tbl_subject">
+                <tr>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+
+                <tr>
+                    <td>Maths</td>
+                    <td>H2</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>H4</td>
+                </tr>
+
+                <tr>
+                    <td>Irish</td>
+                    <td>O3</td>
+                </tr>
+
+                <tr>
+                    <td>Physcis</td>
+                    <td>H4</td>
+                </tr>
+
+                <tr>
+                    <td>DCG</td>
+                    <td>H3</td>
+                </tr>
+
+                <tr>
+                    <td>Spanish</td>
+                    <td>H4</td>
+                </tr>
+
+                <tr>
+                    <td>Biology</td>
+                    <td>H3</td>
+                </tr>
+                <tr>
+                    <td>Total Points</td>
+                    <td>465</td>
+                </tr>
+
+
+            </table>
+
+
+           
+
+        </div>
+        <script src="js/setupMugSlider.js"></script>
+
+        <script src="js/darkMode.js"></script>
+        <script src="js/dropdown.js"></script>
+
+
+        <footer>
+
+            <h3 id="darkH3">Try dark mode!</h3>
+            <h3 id="contactH3">Contact Me</h3>
+
+            <button id="darkButton" onclick="setInvert()">dark mode</button>
+            <button id="lightButton" onclick="resetInvert()">light mode</button>
+
+            <a id="outlook" href="mailto:K00286554@student.lit.ie"><img alt="outlook logo" src="assets/icons/outlook.png"></a>
+            <a id="gmail" href="mailto:fakeEmail@gmail.com"><img alt="gmail logo"  src="assets/icons/gmail.png"></a>
+            <a id="insta" href="https://www.instagram.com/abbytunafish/"><img alt="instagrm logo" src="assets/icons/insta.png"></a>
+
+
+        </footer>
+
+
+    </body>
+
+</html>

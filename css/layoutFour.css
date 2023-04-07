@@ -1,0 +1,66 @@
+form
+{
+    grid-column: 1/13;
+}
+
+fieldset
+{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-row-gap: 22px;
+    grid-column-gap: 3px;
+}
+
+canvas
+{
+    border: 1px solid black;
+    grid-column:5/9;
+    width: 100%;
+
+}
+input
+{
+    grid-column: 5/9;
+}
+
+input[type=reset]
+{
+    grid-column: 5/7;
+}
+input[type=submit]
+{
+    grid-column: 7/9;
+}
+label
+{
+    grid-column: 1/5;
+    text-align: right;
+}
+
+.errorMsg
+{
+    grid-column: 9/13;
+    text-align: left;
+    color: red;
+}
+
+#para
+{
+    grid-column: 1/13;
+
+}
+@media only screen and (min-width:992px) 
+{
+
+    #para
+    {
+        grid-column: 1/6;
+        margin: .5em 1em;
+
+    }
+    form
+    {
+        grid-column: 6/13;
+    }
+}
+

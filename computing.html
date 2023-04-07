@@ -1,0 +1,112 @@
+<!--
+    Machine learning
+    Mobile application development
+    API use
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Three Areas of computing</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layoutOne.css">
+
+
+        <script src="js/addCodeSymbols.js"></script>
+
+    </head>
+    <body onload="addSymbols()">
+
+        <div id="home-grid">
+            <header>
+                <nav>
+                    <a class="navigation-button" href="index.html">.home();</a>
+                    <a class="navigation-button" href="leavingcert.html">.leavingCert();</a>
+                    <a class="navigation-button" href="portfolio.html">.portfolio();</a>
+                    <a class="navigation-button currentPage" href="computing.html"><i class="fa fa-arrow-down"></i>.areasOfComputing();<i class="fa fa-arrow-down"></i></a>
+                    <div id="horizontalRule" style="display: none; border-top: 1px solid black; padding: 0;"></div>
+                    <a class="navigation-button" href="interests.html">.interests();</a>
+                    <a class="navigation-button" href="education.html">.education();</a>
+                    <a class="navigation-button" href="contact.html">.contact();</a>
+                </nav>
+
+            </header>
+            <div class="rightAlign">
+
+                <h1>Machine learning</h1>
+
+                <p class="textbox">
+                    I enjoy creating bots that seem like they can think for themselves. I find
+                    the most rewarding element of machine learning is slowing seeing your accuracy
+                    climb higher and higher with every iteration. However I also enjoy leaning the 
+                    perfect balance between data that is overfit and data that is underfit
+                </p>
+
+            </div>
+            <div class="leftAlign">
+                <img alt="Machine Learning Notes" class="bordered" src="assets/images/mlNotes.png">
+            </div>
+            <div class="leftAlign">
+                <h1>Mobile application development</h1>
+
+                <p class="textbox">
+                    When the leaving cert was over i found myself bored and wanting something new.
+                    Thats when i began mobile application development. At first i used Kivy becuase
+                    it was familear to me, howveer i soon became bored of non native languages. 
+                    Now i do almost all my mobile app development in flutter or Kotlin. However i 
+                    dont like Kotlins syntax
+                </p>
+            </div>
+
+            <div class="rightAlign" id="projectImg">
+                <img alt="Machine Learning Notes" class="bordered" src="assets/images/appDev.png">
+            </div>
+
+            <div class="rightAlign">
+
+                <h1>API Development</h1>
+
+                <p class="textbox">
+                    When developing web apps or mobile apps it can be difficult to mantain elements that may cross over
+                    this is where API's shine. It feels create to get data by simpily calling an api and having 
+                    a NodeJS server in ohio send you a response rather than developing the same code in several 
+                    languages. This was esspecially useful when transfering my kivy project to flutter projects
+
+
+                </p>
+
+            </div>
+            <div class="leftAlign">
+                <img alt="How API's work" class="bordered" src="assets/images/apiPictorial.jpg">
+            </div>
+            
+
+        </div>
+
+        <script src="js/darkMode.js"></script>
+        <script src="js/dropdown.js"></script>
+
+
+        <footer>
+
+            <h3 id="darkH3">Try dark mode!</h3>
+            <h3 id="contactH3">Contact Me</h3>
+
+            <button id="darkButton" onclick="setInvert()">dark mode</button>
+            <button id="lightButton" onclick="resetInvert()">light mode</button>
+
+            <a id="outlook" href="mailto:K00286554@student.lit.ie"><img alt="outlook logo" src="assets/icons/outlook.png"></a>
+            <a id="gmail" href="mailto:fakeEmail@gmail.com"><img alt="gmail logo"  src="assets/icons/gmail.png"></a>
+            <a id="insta" href="https://www.instagram.com/abbytunafish/"><img alt="instagrm logo" src="assets/icons/insta.png"></a>
+
+
+        </footer>
+
+
+
+    </body>
+
+</html>

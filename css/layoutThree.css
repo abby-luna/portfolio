@@ -1,0 +1,63 @@
+
+#home-grid
+{
+    grid-column-gap: 12px;
+}
+
+
+#primary, #stNessans, #secondary, #salesians, #university, #tus
+{
+    grid-column: 1/13;
+}
+
+
+@media only screen and (max-width:991px) 
+{
+
+    #stNessans
+    {
+        grid-row: 2/3;
+    }
+    #primary
+    {
+        grid-row: 3/4;
+    }
+
+    #salesians
+    {
+        grid-row: 4/5; 
+    }
+
+    #secondary
+    {
+        grid-row: 5/6; 
+    }
+
+    #tus
+    {
+        grid-row: 6/7; 
+    }
+    #university
+    {
+        grid-row: 7/8; 
+
+    }
+}
+
+@media only screen and (min-width:992px) 
+{
+    #primary, #stNessans
+    {
+        grid-column: 1/5;
+    }
+
+    #secondary, #salesians
+    {
+        grid-column: 5/9;
+    }
+
+    #university, #tus
+    {
+        grid-column: 9/13;
+    }
+}

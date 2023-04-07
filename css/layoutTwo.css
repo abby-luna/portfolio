@@ -1,0 +1,101 @@
+
+#repair, #MISL, #Patch, #BTYS, #group, #competition, #AI, #Entrepreneurship, #Electronics
+{
+    padding: 0em .5em;
+}
+
+#Entrepreneurship, #repair, #Electronics, #MISL, #Patch, #BTYS, #group, #competition, #AI, #img1, #img2, #img3, #img4, #img5, #img6
+{
+    grid-column: 1/13;
+
+}
+
+/*ROWS FOR MOBILE*/
+@media only screen and (max-width:991px) 
+{
+    #MISL, #Electronics
+    {
+        grid-row: 2/3;
+    }
+    #img1
+    {
+        grid-row: 3/4;
+    }
+
+    #Patch, #Entrepreneurship 
+    {
+        grid-row: 4/5; 
+    }
+
+    #img2
+    {
+        grid-row: 5/6;
+    }
+    #BTYS, #repair
+    {
+        grid-row: 6/7;
+    }
+    #img3
+    {
+        grid-row: 7/8;
+    }
+    #group
+    {
+        grid-row: 8/9;
+    }
+    #img4
+    {
+        grid-row: 9/10;
+    }
+    #competition
+    {
+        grid-row: 19/11;
+    }
+    #img5
+    {
+        grid-row: 11/12;
+    }
+    #AI
+    {
+        grid-row: 12/13;
+    }
+    #img6
+    {
+        grid-row: 13/14;
+    }
+
+}
+@media only screen and (min-width:992px) 
+{
+    #img1, #MISL, #group, #img4, #Electronics
+    {
+       grid-column: 1/5; 
+    }
+    #img2, #Patch, #competition, #img5, #Entrepreneurship
+    {
+        grid-column: 5/9; 
+    }
+    #img3, #BTYS, #AI, #img6, #repair
+    {
+        grid-column: 9/13; 
+    }
+
+    #Patch, #Entrepreneurship
+    {
+        grid-row: 2/3;
+    }
+    #img2
+    {
+        grid-row: 3/4;
+    }
+
+    #competition
+    {
+        grid-row: 4/5;
+    }
+    #img5
+    {
+        grid-row: 5/6;
+    }
+
+}

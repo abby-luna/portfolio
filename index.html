@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layoutOne.css">
+
+        <script src="js/addCodeSymbols.js"></script>
+        <script src="js/imgSlider.js"></script>
+        
+        
+    </head>
+    <body onload="addSymbols()">
+
+        <div id="home-grid">
+            <header>
+                <nav>
+                    
+                    <a class="navigation-button currentPage" href="index.html"><i class="fa fa-arrow-down"></i>.home();<i class="fa fa-arrow-down"></i></a>
+                    <div id="horizontalRule" style="display: none; border-top: 1px solid black; padding: 0;"></div>
+                    <a class="navigation-button" href="leavingcert.html">.leavingCert();</a>
+                    <a class="navigation-button" href="portfolio.html">.portfolio();</a>
+                    <a class="navigation-button" href="computing.html">.areasOfComputing();</a>
+                    <a class="navigation-button" href="interests.html">.interests();</a>
+                    <a class="navigation-button" href="education.html">.education();</a>
+                    <a class="navigation-button" href="contact.html">.contact();</a>
+                </nav>
+
+            </header>
+
+            <div class="rightAlign">
+
+                <h1>About Me</h1>
+
+                <p class="textbox">
+                I'm a 19-year-old programmer that specializes in creating the backend of mobile apps. My favorite languages to work with are java, dart and NodeJS. I couldn't possibly pick a single favorite because I believe all languages have their own use case.
+                </p>
+
+            </div>
+            <img class="leftAlign bordered" alt="Selfie of Abby Garvey" class="bordered" src="assets/images/AbbyFinal.jpg">
+            <div class="leftAlign">
+                <h1>Projects I did</h1>
+
+                <p class="textbox">
+                    The most useful project I ever worked on
+                    is something I use every day. I created an
+                    app in flutter that would tell my timetable!
+                    As this project progressed I used
+                    knowledge I picked up in Nick Brady's
+                    class to expand it by creating a db of all
+                    the timetables to expand my target
+                    audience. In addition to this, I set up a
+                    small NodeJS server to scan for any
+                    changes in the timetables to make sure
+                    our data is always up-to-date.
+                    Unfortunately due to the fact passwords
+                    are now needed to access timetables the
+                    usefulness of this project is in jeopardy                
+                </p>
+            </div>
+
+            <img  class="rightAlign bordered" id="projectImg" alt="Timetable App" src="assets/images/timetableAppy.jpg">
+            
+            <button class="seeMoreButton" onclick="window.location.href='portfolio.html';">See more interesting projects</button>
+            <h1 class="fullLen">Secondary School Education</h1>
+
+            <div id="imgSliderSecondary">
+
+                <img class="bordered" alt="Salesian secondary school" id="secondarySchoolImg" src="assets/images/school.jpg">
+                <button class="sliderButton" id="pointLeft"> <img id="lPoint" alt="Left Pointer" src="assets/icons/leftArrow.png"> </button>
+
+                <button class="sliderButton" id="pointRight"> <img id="rPoint" alt="Right Pointer" src="assets/icons/rightArrow.png"> </button>
+
+            </div>
+            <button class="seeMoreButton" onclick="window.location.href='leavingcert.html';">Learn about my leaving cert</button>
+
+        </div>
+
+        <script src="js/darkMode.js"></script>
+
+        <footer>
+
+            <h3 id="darkH3">Try dark mode!</h3>
+            <h3 id="contactH3">Contact Me</h3>
+
+            <button id="darkButton" onclick="setInvert()">dark mode</button>
+            <button id="lightButton" onclick="resetInvert()">light mode</button>
+
+            <a id="outlook" href="mailto:K00286554@student.lit.ie"><img alt="outlook logo" src="assets/icons/outlook.png"></a>
+            <a id="gmail" href="mailto:fakeEmail@gmail.com"><img alt="gmail logo"  src="assets/icons/gmail.png"></a>
+            <a id="insta" href="https://www.instagram.com/abbytunafish/"><img alt="instagrm logo" src="assets/icons/insta.png"></a>
+
+
+        </footer>
+
+        <script src="js/setupSchoolSlider.js"></script>
+        <script src="js/dropdown.js"></script>
+
+        
+    </body>
+
+    
+
+
+</html>

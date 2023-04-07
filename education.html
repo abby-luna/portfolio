@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Education</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layoutThree.css">
+
+        <script src="js/addCodeSymbols.js"></script>
+
+    </head>
+    <body onload="addSymbols()">
+
+        <div id="home-grid">
+            <header>
+                <nav>
+                    <a class="navigation-button" href="index.html">.home();</a>
+                    <a class="navigation-button" href="leavingcert.html">.leavingCert();</a>
+                    <a class="navigation-button" href="portfolio.html">.portfolio();</a>
+                    <a class="navigation-button" href="computing.html">.areasOfComputing();</a>
+                    <a class="navigation-button" href="interests.html">.interests();</a>
+                    <a class="navigation-button currentPage" href="education.html"><i class="fa fa-arrow-down"></i>.education();<i class="fa fa-arrow-down"></i></a>
+                    <div id="horizontalRule" style="display: none; border-top: 1px solid black; padding: 0;"></div>
+                    <a class="navigation-button" href="contact.html">.contact();</a>
+                </nav>
+
+            </header>
+
+            <img id="primary" alt="St Nessans Primary School" src="assets/images/primarySchool.jpg">
+            <img id="secondary" alt="Salesians Catholic School" src="assets/images/salesians.jpg">
+            <img id="university" alt="Technological University of the Shannon" src="assets/images/tus.png">
+
+            <div id="stNessans">
+                <h1>St.Nessans</h1>
+
+                <p>
+                    St.Nessans is a primary school in Mungert. I don't have many memories from this
+                    school however I feel like they adequately prepared me for Secondary School. 
+                    The school had many extracurricular activities including a coderdojo class
+
+
+                </p>
+
+            </div>
+
+            <div id="salesians">
+                <h1>Salesians</h1>
+
+                <p>
+                    Salesians Secondary College had an interesting way of teaching that I didn't particularly 
+                    agree with. The school was rather religious and prioritized it over subjects like IT.
+                    Assuming you managed to get on a school computer for DCG, you were never safe there, the 
+                    school used one shared account for all students (to save money). This meant that all student
+                    data was visible by any other student on that machine. 
+
+                </p>
+            </div>
+
+            <div id="tus">
+                <h1>TUS Moylish</h1>
+
+                <p>
+                    TUS is a University with over 14,000 students on six campuses. They offer 
+                    undergraduate, postgraduate, vocational, and professional training from Level 6 
+                    undergraduate courses right up to Level 10 PhDs. When I choose TUS it was the only time
+                    I ever got to choose my own school. And I believe I made the right choice
+
+                </p>
+
+            </div>
+        </div>
+
+        <script src="js/darkMode.js"></script>
+        <script src="js/dropdown.js"></script>
+
+
+        <footer>
+
+            <h3 id="darkH3">Try dark mode!</h3>
+            <h3 id="contactH3">Contact Me</h3>
+
+            <button id="darkButton" onclick="setInvert()">dark mode</button>
+            <button id="lightButton" onclick="resetInvert()">light mode</button>
+
+            <a id="outlook" href="mailto:K00286554@student.lit.ie"><img alt="outlook logo" src="assets/icons/outlook.png"></a>
+            <a id="gmail" href="mailto:fakeEmail@gmail.com"><img alt="gmail logo"  src="assets/icons/gmail.png"></a>
+            <a id="insta" href="https://www.instagram.com/abbytunafish/"><img alt="instagrm logo" src="assets/icons/insta.png"></a>
+
+
+        </footer>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,93 @@
+/*Desk View*/
+@media only screen and (min-width:992px) 
+{
+
+
+    #secondaryMug
+    {
+            display: inline;
+    }
+    #tbl_subject
+    {
+        grid-column: 4/10;
+
+    }
+
+    #imgSliderSecondary
+    {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        grid-column: 1/13;
+        place-items: center;
+    }
+    #ratMug
+    {        
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        place-items: center;
+        grid-column-gap: 10px;
+
+    }
+
+    #primaryMug
+    {
+        grid-column: 1/7;
+    }
+    #secondaryMug
+    {
+        grid-column: 7/13;
+    }
+    #pointLeftMug, #pointRightMug
+    {
+        display: none;
+    }
+
+    #pointLeft
+    {
+        grid-column: 3/4;
+    }
+
+    
+    #pointRight
+    {
+        grid-column:10/11;
+    }
+
+    #secondarySchoolImg
+    {
+        grid-column:4/10;
+
+    }
+    nav
+    {
+        grid-column: 1/13;
+    }
+
+
+    .rightAlign, .leftAlign
+    {
+        margin: auto; 
+    }
+    .rightAlign
+    {
+        grid-column: 2/7;
+
+
+    }
+    .leftAlign
+    {
+
+        grid-column: 7/12;
+    }
+    .seeMoreButton
+    {
+        grid-column: 5/9;
+
+    }
+
+    #projectImg 
+    {
+        grid-row: 3/4;
+    }
+
+}

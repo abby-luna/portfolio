@@ -1,0 +1,88 @@
+<!-- 
+    Tech repair
+    Science
+    Electrical circuts
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Interests</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layoutTwo.css">
+
+        <script src="js/addCodeSymbols.js"></script>
+
+    </head>
+    <body onload="addSymbols()">
+
+        <div id="home-grid">
+            <header>
+                <nav>
+                    <a class="navigation-button" href="index.html">.home();</a>
+                    <a class="navigation-button" href="leavingcert.html">.leavingCert();</a>
+                    <a class="navigation-button" href="portfolio.html">.portfolio();</a>
+                    <a class="navigation-button" href="computing.html">.areasOfComputing();</a>
+                    <a class="navigation-button currentPage" href="interests.html"><i class="fa fa-arrow-down"></i>.interests();<i class="fa fa-arrow-down"></i></a>
+                    <div id="horizontalRule" style="display: none; border-top: 1px solid black; padding: 0;"></div>
+                    <a class="navigation-button" href="education.html">.education();</a>
+                    <a class="navigation-button" href="contact.html">.contact();</a>
+                </nav>
+
+            </header>
+            <img id="img1" src="assets/images/electronics.jpg" alt="circuits i built">
+            <img id="img2" src="assets/images/dogpatchLabs.jpg" alt="Dogpatch labs">
+            <img id="img3" src="assets/images/DFS_NOTES.jpg" alt="Very Old depth first search notes">
+
+            <div id="Electronics">
+                <h1>Electronics</h1>
+                <p>
+                    I got my first Raspberry Pi in 2016 and used it for almost all computing as my computer was not great. I used for basic scripting and controlling electronic circuits with GPIO pins.
+                </p>
+            </div>
+
+            <div id="Entrepreneurship">
+                <h1>Entrepreneurship</h1>
+                <p>
+                    Dogpatch Labs taught me about public speaking, market research and entrepreneurship. Working in a team to create something new was enjoyable. Expert feedback helped improve the tech I developed.
+                </p>
+            </div>
+
+
+            <div id="repair">
+                <h1>Technology growing up</h1>
+                <p>
+                    Growing up, my parents were strict about my technology use. This led me to learn programming and computing in unconventional ways. The Raspberry Pi expanded my capabilities, allowing me to debug and run code I had theorized.
+                </p>
+            </div>
+            
+
+        </div>
+
+        <script src="js/darkMode.js"></script>
+        <script src="js/dropdown.js"></script>
+
+
+        <footer>
+
+            <h3 id="darkH3">Try dark mode!</h3>
+            <h3 id="contactH3">Contact Me</h3>
+
+            <button id="darkButton" onclick="setInvert()">dark mode</button>
+            <button id="lightButton" onclick="resetInvert()">light mode</button>
+
+            <a id="outlook" href="mailto:K00286554@student.lit.ie"><img alt="outlook logo" src="assets/icons/outlook.png"></a>
+            <a id="gmail" href="mailto:fakeEmail@gmail.com"><img alt="gmail logo"  src="assets/icons/gmail.png"></a>
+            <a id="insta" href="https://www.instagram.com/abbytunafish/"><img alt="instagrm logo" src="assets/icons/insta.png"></a>
+
+
+        </footer>
+
+
+
+    </body>
+
+</html>

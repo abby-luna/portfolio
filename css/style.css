@@ -1,0 +1,314 @@
+/*
+BASE STYLE APPLIED TO ALL PAGES
+*/
+
+
+/*TEXTBOX STYLES*/
+div:not(#home-grid, #ratMug, #imgSliderSecondary, #horizontalRule)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    height: 100%;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer img
+{
+    height: 4em;
+}
+body
+{
+    background-color: white;
+}
+
+h1
+{
+    font-size: 20px;
+    color:#b75301;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    place-items: center;
+
+    margin-top: 3%;
+}
+
+#darkH3
+{
+    grid-column: 1/13;
+}
+#contactH3
+{
+    grid-column: 1/13;
+    grid-row: 3/4;
+}
+
+#darkButton
+{
+    grid-column: 3/7;
+    grid-row: 2/3;
+}
+#lightButton
+{
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+
+#outlook
+{
+    grid-column: 1/5;
+}
+#gmail
+{
+    grid-column: 5/9;
+}
+#insta
+{
+    grid-column: 9/13;
+}
+
+
+
+
+body{
+    font-family: "Courier New", monospace;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.bordered
+{
+    border: 1px solid black;
+}
+.textbox
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#secondaryMug
+{
+    display: none;
+}
+
+#ratMug
+{
+    position: relative;
+    grid-column: 2/12;
+}
+nav
+{
+    display: grid;
+    padding:  2em 0;
+}
+
+
+.navigation-button:hover
+{
+
+    border: 1px solid red;
+}
+.navigation-button
+{
+    display: none;
+    color: black;
+    text-decoration: none;
+    padding: 1em .25em;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    
+
+
+
+
+}
+
+.currentPage
+{
+    display: block;
+
+    grid-row: 1/2;
+
+    background-color: rgb(228, 209, 193);
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+#home-grid
+{
+
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+header, .rightAlign, .leftAlign, .seeMoreButton, #imgSliderSecondary, .fullLen
+{
+    grid-column: 1/13;
+
+}
+
+img
+{
+    width: 100%;
+}
+
+#imgSliderSecondary
+{
+    position: relative;
+    text-align: center;
+
+}
+
+
+#pointLeft, #pointLeftMug
+{
+    top: 50%;
+    bottom: 50%;
+    left: 0%;
+
+}
+#pointRight, #pointRightMug
+{
+    
+    top: 50%;
+    bottom: 50%;
+    right: 0%;
+}
+.sliderButton
+{
+    position: absolute;
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    margin: auto;
+}
+#secondarySchoolImg
+{
+    grid-column: 1/13;
+    margin: auto;
+}
+.seeMoreButton
+    {
+        grid-column: 5/9;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px dotted black;
+        margin: 1.5em;
+        padding: .8em;
+    }
+
+
+#tbl_subject
+{
+    grid-column: 1/13;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+
+tr:first-child, tr:last-child
+{
+    background-color: rgb(255, 219, 253);
+}
+
+
+#tbl_subject td,  #tbl_subject th
+{
+    border: 1px solid black;
+
+}
+
+.fa-arrow-down
+{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#horizontalRule
+{
+    margin: .5em 0;
+    background-color: white;
+}
+
+/*BASE DESKTOP*/
+@media only screen and (min-width:992px) 
+{
+    .navigation-button
+    {
+        display: inline;
+    
+    
+    }
+    
+    nav
+    {
+        display: block;
+    }
+
+    .currentPage
+    {
+        display: inline;
+    }
+
+    .fa-arrow-down
+    {
+        display: none;
+    }
+    .fa-arrow-up
+    {
+        display: none;
+    }
+    #darkH3
+    {
+        grid-column: 1/7;
+    }
+    #contactH3
+    {
+        grid-column: 7/12;
+        grid-row: 1/2;
+    }
+
+    #darkButton
+    {
+        grid-column: 2/4;
+    }
+    #lightButton
+    {
+        grid-column: 4/6;
+    }
+
+    #outlook
+    {
+        grid-column: 8/9;
+    }
+    #gmail
+    {
+        grid-column: 9/10;
+    }
+    #insta
+    {
+        grid-column: 10/11;
+    }
+
+
+}
+
