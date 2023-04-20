@@ -36,14 +36,18 @@ h1
     color:#b75301;
 }
 
-footer{
+footer
+{
+
     display: grid;
+    
     grid-template-columns: repeat(12, minmax(0, 1fr));
     background-color: #e5e5e5;
     border-radius: 5px;
     place-items: center;
-
-    margin-top: 3%;
+    
+    height: 15em;
+    margin-top: 10%;
 }
 
 #darkH3
@@ -129,8 +133,7 @@ nav
     padding: 1em .25em;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 
 
 
@@ -153,6 +156,7 @@ nav
 
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
+    
 }
 
 header, .rightAlign, .leftAlign, .seeMoreButton, #imgSliderSecondary, .fullLen
@@ -237,7 +241,7 @@ tr:first-child, tr:last-child
 
 }
 
-.fa-arrow-down
+.fa-arrow-down, .fa-arrow-up
 {
     margin-left: 2em;
     margin-right: 2em;
